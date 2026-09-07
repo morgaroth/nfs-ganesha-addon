@@ -17,8 +17,8 @@ Expose Home Assistant folders via NFS using nfs-ganesha in userspace.
 ## Installation
 
 1. Click the button below to add this repository to your Home Assistant instance:
-
-   [![Open your Home Assistant instance and show the add app repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/sam-ward/nfs-ganesha-addon)
+   git@github.com:morgaroth/nfs-ganesha-addon.git
+   [![Open your Home Assistant instance and show the add app repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/morgaroth/nfs-ganesha-addon)
 
    Or manually add this repository in Home Assistant:
    - Go to **Settings** → **Apps** → **App Store**
