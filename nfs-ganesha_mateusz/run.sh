@@ -85,6 +85,10 @@ NFS_CORE_PARAM
     NFS_Protocols = 4;
     Enable_NLM = false;
     Enable_RQUOTA = false;
+    # Ganesha 6.x calls prctl(PR_SET_IO_FLUSHER), which needs CAP_SYS_RESOURCE.
+    # HA addons don't get that capability, so the call returns EPERM and the
+    # daemon aborts (exit 2). Allow the failure so startup continues.
+    Allow_Set_Io_Flusher_Fail = true;
 }
 
 NFSv4
@@ -112,7 +116,6 @@ LOG {
     Default_Log_Level = ${LOG_LEVEL};
     Format {
         EPOCH = false;
-        CLOCK = true;
         HOSTNAME = false;
         PROGNAME = true;
         PID = true;
