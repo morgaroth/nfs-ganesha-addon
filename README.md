@@ -1,4 +1,4 @@
-# Home Assistant NFS Server (Ganesha) App
+# Home Assistant NFS Server (Ganesha) App Mateusz Fork
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
