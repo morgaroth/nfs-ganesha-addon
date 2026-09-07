@@ -1,8 +1,8 @@
 name: NFS Server (Ganesha) Mateusz
 version: "1.2.0"
 slug: nfs_ganesha_mateusz
-description: Expose Home Assistant folders via NFS using nfs-ganesha
-url: https://github.com/sam-ward/nfs-ganesha-addon
+description: Expose Home Assistant folders via NFS using nfs-ganesha Mateusz
+url: https://github.com/morgaroth/nfs-ganesha-addon
 startup: system
 arch:
   - aarch64
